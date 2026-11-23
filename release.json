@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "version": "test",
+  "build": {
+    "number": 1,
+    "tag": "build-0001",
+    "manifestUrl": "https://github.com/mod-public/mod-releases-test/releases/download/build-0001/manifest.json"
+  },
+  "patch": {
+    "number": 0,
+    "tag": "",
+    "manifestUrl": ""
+  }
+}
