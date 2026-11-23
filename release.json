@@ -1,14 +1,21 @@
 {
   "schemaVersion": 1,
-  "version": "test",
+  "version": "test2",
   "build": {
     "number": 1,
     "tag": "build-0001",
     "manifestUrl": "https://github.com/mod-public/mod-releases-test/releases/download/build-0001/manifest.json"
   },
   "patch": {
-    "number": 0,
-    "tag": "",
-    "manifestUrl": ""
+    "number": 1,
+    "tag": "patch-0001-0001",
+    "manifestUrl": "https://github.com/mod-public/mod-releases-test/releases/download/patch-0001-0001/manifest.json",
+    "mirrors": [
+      {
+        "provider": "yandexDisk",
+        "publicFolderUrl": "https://yadi.sk/d/meVDb6ERUZX4-g",
+        "folderPath": "/test/patch-0001-0001"
+      }
+    ]
   }
 }
